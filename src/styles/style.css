@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebedf1;
+  }
+  
+  .app {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .kanban-board {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    background-color: #ebedf1;
+    border-radius: 2px;
+    padding: 2px;
+    margin: 5px;
+    width: 50%;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    p {
+        font-size: 10px; /* Adjust size as needed */
+        margin: 2px; 
+      }
+    h6 {
+        
+        margin: 5px; 
+      }
+  }
+  
+  /* App.css or Filters.css */
+.filters {
+    margin-bottom: 20px;
+}
+
+.filter-options {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+    position: relative; /* To position the availability indicator */
+    text-transform: uppercase; /* Ensure initials are always uppercase */
+  }
+  
+  .avatar .availability {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    border: 2px solid white; /* To give a border around the indicator */
+  }
+  
+  .user-info p {
+    margin: 0;
+  }
+  .cardline{
+    display: flex;
+    justify-content: space-between;
+  }
+  .tag-box {
+    border: 1px solid #ccc; /* Outline color */
+    border-radius: 4px; /* Slight rounding of corners */
+    margin-top: 4px; /* Space above the box */
+    padding: 4px; /* Space inside the box */
+    font-size: 10px; /* Font size */
+    background-color: #f9f9f9; /* Light background color */
+    font-family: Arial, sans-serif; /* Font styling */
+    display: inline-block; /* Make the box size to fit the content */
+}
+
+.hedding{
+    margin: 5px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+  
