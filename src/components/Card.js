@@ -39,8 +39,9 @@ const Card = ({ ticket, userMap }) => {
             </div>
             </div>
             <h6>{ticket.title}</h6>
-            <p>Priority: {ticket.priority}</p>
-            <p>User: {userMap[ticket.userId]?.name || 'Unknown'}</p>
+            <div className="tag-box">
+            <DisplayIcon width="13" height="10" />
+            </div>
             <div className="tag-box">
                 {ticket.tag} {/* Assuming tags is an array */}
             </div>
